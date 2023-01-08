@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>動畫推薦</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+
+    </script>
+     <script src="https://code.jquery.com/jquery.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+  .text{text-align: left;
+    font-size:  70px;
+    color: blueviolet;}
+  .text_1{text-align: center;
+    font-size:  70px;
+    color: blueviolet;}
+    .text_2{text-align:left;
+    font-size:30px;
+    color: mediumseagreen;}
+    #div_1 {
+        margin: 0px 15px 15px 15px; 
+        width: 500px; /* 配合廣告尺寸 */
+        clear: both;
+        }
+</style>
+
+<body>
+<!-- 巡覽列, navbar-default 表示白底黑字樣式 -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+    <!-- 選單表頭區塊 -->
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand" style="font-size: 30px;"><b>動畫介紹一覽</b></a>
+      <!-- 按鈕 -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+ 
+      </button>
+    </div>
+    
+    <!-- 選單 -->
+    <div id="mynav" class="navbar-collapse collapse">
+        
+        <ul class="navbar-nav">
+          <li class="dropdown-item"><a class="navbar-brand" href="index.html" class="nav-link"><span class="glyphicon glyphicon-plane"> <b>[主頁]</b></a></li>
+            <li class="dropdown-item"><a class="navbar-brand" href="經典戰鬥番.html" class="nav-link"><span class="glyphicon glyphicon-user"> <b>[經典戰鬥番]</b></a></li>
+            <li class="dropdown-item"><a class="navbar-brand" href="校園戀愛番.html" class="nav-link"><span class="glyphicon glyphicon-envelope"> <b>[校園戀愛番]</b></a></li>
+            <li class="dropdown-item"><a class="navbar-brand" href="搞笑喜劇番.html" class="nav-link"><span class="glyphicon glyphicon-user"> <b>[搞笑喜劇番]</b></a></li>
+            <li class="dropdown-item"><a class="navbar-brand" href="異世界番.html" class="nav-link"><span class="glyphicon glyphicon-envelope"><b> [異世界番]</b></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron text-center" style="background-color:deepskyblue">
+    <h1><b>校園戀愛番</b></h1>
+    <p style="color:red; font-size: 25px;">介紹動畫前，要先了解哪裡可以看動漫</p>
+</div>
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+<!-- 相片輪播元件 -->
+<div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
+  <!-- Indicators 瀏覽控制 --> 
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <!-- 建立相片清單 -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="https://ani.gamer.com.tw/"><img src="image/anime1.png" class="d-block w-50" style="display:block; margin:auto;" ></a>
+    </div>
+    <div class="carousel-item">
+    <a href="https://www.youtube.com/channel/UCgdwtyqBunlRb-i-7PnCssQ"> <img src="image/anime2.png" class="d-block w-50" style="display:block; margin:auto;" ></a>
+    </div>
+    <div class="carousel-item">
+    <a href="https://anime1.me/"> <img src="image/anime3.png" class="d-block w-50" style="display:block; margin:auto;"></a>
+    </div>
+  </div>
+  <!-- 上一張/下一張控制 --> 
+  <a class="left carousel-control" href="#photoCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#photoCarousel" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span></a>
+  <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<p class="text_1">何為校園戀愛番?</p>
+<div class="div_1">
+  <img src="image/文化祭.png" align="right" hspace="50" vspace="20" width="460" height="550" ><br>
+  <p style="text-align:left; font-size:50px;color: mediumseagreen;">顧名思義，在青春年華的校園生活中，由學生們之間所形成一種清純的戀愛關係，在像學校這樣的環境中，由於每日上學都會與同學相處，有時會激起愛情的火花也合情合理。觀看校園戀愛番，我覺得最主要的是看男女主角的互動，以及在學校所主辦的活動中(文化祭、修學旅行等)遭遇事件，培養彼此之間的感情。</p>
+<br><br><br><br><br>
+</div>  
+  
+  <div class="div_1">
+  <p class="text">五等分的新娘</p>
+<br><img src="image/五等分.jpg" align="right" hspace="10" vspace="30" width="300" height="380" ><br>
+<p class="text_2">《五等分的新娘》（日語：五等分の花嫁）是由日本漫畫家春場蔥所創作的少年漫畫。漫畫改編電視動畫第1季於2019年1月至3月播出。電視動畫第2季於2021年1月至3月播出。本作是校園愛情喜劇，故事以男主角上杉風太郎將在未來與中野家五胞胎姊妹中的一人結婚為展開，以倒敘的方式回顧風太郎與五姊妹相識的故事，之後也多次穿插結婚場景。因為五胞胎長相相同從而留下懸念，讓讀者無從得知風太郎的結婚對象。漫畫的最後有說明上杉風太郎結婚的對象。在故事中，風太郎常常無法以外貌區分五姊妹，而末尾時也刻意讓五胞胎以相同的裝扮，都穿著新娘禮服，要風太郎認出真正的新娘。</p>
+<br><br><br><br><br>
+</div>
+
+<div class="div_1">
+  <p class="text">輝夜姬想讓人告白～天才們的戀愛頭腦戰～</p>
+  
+  <br><img src="image/輝夜姬.jpg" align="right" hspace="10" vspace="30" width="300" height="380" ><br>
+
+  <p class="text_2">《輝夜姬想讓人告白～天才們的戀愛頭腦戰～》（日語：かぐや様は告らせたい〜天才たちの恋愛頭脳戦〜），官方簡稱《輝夜姬》（日語：かぐや様），是日本漫畫家赤坂明的校園漫畫作品，漫畫後來被改編成同名的動畫，在2019年1月時播出。在名門菁英雲集的「秀知院學園」裡，高中部學生會副會長四宮輝夜與會長白銀御行備受大家矚目。兩人雖暗中相互愛慕，卻因自尊心過高無法變得坦率，反而開始絞盡腦汁力求讓對方先表達愛意……從此，兩人間的一場場精彩又搞笑的戀愛頭腦戰，每日不停歇地在上演著。</p>
+  <br><br><br><br><br>  
+  </div>
+</body>
+</html>

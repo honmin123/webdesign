@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>動畫推薦</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+
+    </script>
+     <script src="https://code.jquery.com/jquery.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<!-- 巡覽列, navbar-default 表示白底黑字樣式 -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+    <!-- 選單表頭區塊 -->
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand" style="font-size: 30px;"><b>動畫介紹一覽</b></a>
+      <!-- 按鈕 -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+ 
+      </button>
+    </div>
+    
+    <!-- 選單 -->
+    <div id="mynav" class="navbar-collapse collapse">
+        
+        <ul class="navbar-nav">
+             <li class="dropdown-item"><a class="navbar-brand" href="index.html" class="nav-link"><span class="glyphicon glyphicon-plane"> <b>[主頁]</b></a></li>
+             <li class="dropdown-item"><a class="navbar-brand" href="經典戰鬥番.html" class="nav-link"><span class="glyphicon glyphicon-user"> <b>[經典戰鬥番]</b></a></li>
+             <li class="dropdown-item"><a class="navbar-brand" href="校園戀愛番.html" class="nav-link"><span class="glyphicon glyphicon-envelope"> <b>[校園戀愛番]</b></a></li>
+             <li class="dropdown-item"><a class="navbar-brand" href="搞笑喜劇番.html" class="nav-link"><span class="glyphicon glyphicon-user"> <b>[搞笑喜劇番]</b></a></li>
+             <li class="dropdown-item"><a class="navbar-brand" href="異世界番.html" class="nav-link"><span class="glyphicon glyphicon-envelope"><b> [異世界番]</b></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron text-center" style="background-color:deepskyblue">
+    <h1><b>動畫網站推薦</b></h1>
+    <p style="color:red; font-size: 25px;">介紹動畫前，要先了解哪裡可以看動漫</p>
+</div>
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+<!-- 相片輪播元件 -->
+<div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
+  <!-- Indicators 瀏覽控制 --> 
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <!-- 建立相片清單 -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="https://ani.gamer.com.tw/"><img src="image/anime1.png" class="d-block w-50" style="display:block; margin:auto;" ></a>
+    </div>
+    <div class="carousel-item">
+    <a href="https://www.youtube.com/channel/UCgdwtyqBunlRb-i-7PnCssQ"> <img src="image/anime2.png" class="d-block w-50" style="display:block; margin:auto;" ></a>
+    </div>
+    <div class="carousel-item">
+    <a href="https://anime1.me/"> <img src="image/anime3.png" class="d-block w-50" style="display:block; margin:auto;"></a>
+    </div>
+  </div>
+  <!-- 上一張/下一張控制 --> 
+  <a class="left carousel-control" href="#photoCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#photoCarousel" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span></a>
+  <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</body>
+</html>

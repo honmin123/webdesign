@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>動畫推薦</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+
+    </script>
+     <script src="https://code.jquery.com/jquery.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <style>
+      .text{text-align: left;
+        font-size:  70px;
+        color: blueviolet;}
+      .text_1{text-align: center;
+        font-size:  70px;
+        color: blueviolet;}
+        .text_2{text-align:left;
+        font-size:30px;
+        color: mediumseagreen;}
+        #div_1 {
+            margin: 0px 15px 15px 15px; 
+            width: 500px; /* 配合廣告尺寸 */
+            clear: both;
+            }
+    </style>
+</head>
+
+<body>
+<!-- 巡覽列, navbar-default 表示白底黑字樣式 -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+    <!-- 選單表頭區塊 -->
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand" style="font-size: 30px;"><b>動畫介紹一覽</b></a>
+      <!-- 按鈕 -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+ 
+      </button>
+    </div>
+    
+    <!-- 選單 -->
+    <div id="mynav" class="navbar-collapse collapse">
+        
+        <ul class="navbar-nav">
+          <li class="dropdown-item"><a class="navbar-brand" href="index.html" class="nav-link"><span class="glyphicon glyphicon-plane"> <b>[主頁]</b></a></li>
+            <li class="dropdown-item"><a class="navbar-brand" href="經典戰鬥番.html" class="nav-link"><span class="glyphicon glyphicon-user"> <b>[經典戰鬥番]</b></a></li>
+            <li class="dropdown-item"><a class="navbar-brand" href="校園戀愛番.html" class="nav-link"><span class="glyphicon glyphicon-envelope"> <b>[校園戀愛番]</b></a></li>
+            <li class="dropdown-item"><a class="navbar-brand" href="搞笑喜劇番.html" class="nav-link"><span class="glyphicon glyphicon-user"> <b>[搞笑喜劇番]</b></a></li>
+            <li class="dropdown-item"><a class="navbar-brand" href="異世界番.html" class="nav-link"><span class="glyphicon glyphicon-envelope"><b> [異世界番]</b></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron text-center" style="background-color:deepskyblue">
+    <h1><b>搞笑喜劇番</b></h1>
+    <p style="color:red; font-size: 25px;">介紹動畫前，要先了解哪裡可以看動漫</p>
+</div>
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+<!-- 相片輪播元件 -->
+<div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
+  <!-- Indicators 瀏覽控制 --> 
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <!-- 建立相片清單 -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="https://ani.gamer.com.tw/"><img src="image/anime1.png" class="d-block w-50" style="display:block; margin:auto;" ></a>
+    </div>
+    <div class="carousel-item">
+    <a href="https://www.youtube.com/channel/UCgdwtyqBunlRb-i-7PnCssQ"> <img src="image/anime2.png" class="d-block w-50" style="display:block; margin:auto;" ></a>
+    </div>
+    <div class="carousel-item">
+    <a href="https://anime1.me/"> <img src="image/anime3.png" class="d-block w-50" style="display:block; margin:auto;"></a>
+    </div>
+  </div>
+  <!-- 上一張/下一張控制 --> 
+  <a class="left carousel-control" href="#photoCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#photoCarousel" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span></a>
+  <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<p class="text_1">何為搞笑喜劇番?</p>
+<div class="div_1">
+  <img src="image/搞笑番範例.jpg" align="right" hspace="50" vspace="80" width="500" height="450" ><br>
+  <p style="text-align:left; font-size:50px;color: mediumseagreen;">顧名思義，以主打搞笑、逗趣的表現手法的動畫，劇情方面相較其他類型不同，能讓觀眾抱著輕鬆愉快的心情去看這樣的動畫，有時會引用一些讓人感到無厘頭的劇情或台詞，總是令人忍不住捧腹大笑，我認為像這樣類型的搞笑動畫，很考驗作者的笑點能不能對上觀眾的電波。</p>
+<br><br><br><br><br>
+</div>  
+  
+  <div class="div_1">
+  <p class="text">銀魂</p>
+<br><img src="image/銀魂.jpg" align="right" hspace="10" vspace="30" width="360" height="450" ><br>
+<p class="text_2">《銀魂》（ぎんたま，Gin Tama）是日本漫畫家空知英秋的少年漫畫作品，後來有改篇成同名的動畫，本作是以科幻時代劇為題材的搞笑番。以風格獨特的毒舌、吐槽、無厘頭、異想天開的惡搞，為作品的特色與賣點，但也不時穿插感人的故事，以及人生道理的描寫。江戶時代末期（本作的20多年前），被稱為「天人」（あまんと）的神秘外星人來襲，人類與天人之間的戰爭瞬即爆發，為數眾多的武士和攘夷派志士均參與戰鬥。幕府見識到天人強大的實力後，立刻低頭，放棄武士不管，並與天人簽訂不平等條約，准許他們入國。之後「廢刀令」頒發，使武士們已經忘記怎樣去貫徹自己的武士道。自此，幕府為天人所控制，形成「傀儡政權」，造成權力的腐敗，幫派和惡徒也因而肆意猖狂。在這樣的時代，一個仍舊保留著武士之魂的男人坂田銀時與同伴志村新八、神樂經營著萬事屋（只要有錢拿什麼工作都接），愉快地過著異想天開的生活。</p>
+<br><br><br><br><br>
+</div>
+
+<div class="div_1">
+  <p class="text">為美好的世界獻上祝福</p>
+  
+  <br><img src="image/美好世界.jpg" align="right" hspace="10" vspace="30" width="360" height="450" ><br>
+
+  <p class="text_2">《為美好的世界獻上祝福！》（日語：この素晴らしい世界に祝福を！）是曉夏目撰寫、三嶋黑音繪製插畫的日本輕小說作品，2016年1月電視動畫版在日本開播。佐藤和真在某次意外中死亡。負責管理日本意外死亡青少年的水流女神阿克婭表示，某個異世界正受到魔王軍肆虐、人口大量減少，假如和真願意轉生到該世界，他便可以受到保留記憶、並帶走一樣額外的神裝或技能的優待。與此同時，阿克婭不斷嘲笑和真在原世界的頹廢與丟臉的死法。於是和真受不了阿克婭的冷嘲熱諷，在轉生前選擇不帶走任何神裝而帶走阿克婭——負責接替阿克婭的女神表示，唯有打倒魔王，才會讓阿克婭回到原本的職位。在和真被當成冒險者送到異世界後，與明明是水之女神卻只精進於宴會才藝的阿克婭、每日限定一發爆裂魔法的紅魔族少女惠惠、攻擊命中率0％防禦力卻高到異常且被打反而會高潮的抖M波霸美女十字騎士達克妮絲這些特別的角色結伴，過著在異世界為獲得安定生活而努力的日常，但基本上故事沒有一個是正常人。</p>
+    
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>動畫推薦</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+
+    </script>
+     <script src="https://code.jquery.com/jquery.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <style>
+      .text{text-align: left;
+        font-size:  70px;
+        color: blueviolet;}
+      .text_1{text-align: center;
+        font-size:  70px;
+        color: blueviolet;}
+        .text_2{text-align:left;
+        font-size:30px;
+        color: mediumseagreen;}
+        #div_1 {
+            margin: 0px 15px 15px 15px; 
+            width: 500px; /* 配合廣告尺寸 */
+            clear: both;
+            }
+    </style>
+</head>
+
+<body>
+<!-- 巡覽列, navbar-default 表示白底黑字樣式 -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+    <!-- 選單表頭區塊 -->
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand" style="font-size: 30px;"><b>動畫介紹一覽</b></a>
+      <!-- 按鈕 -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+ 
+      </button>
+    </div>
+    
+    <!-- 選單 -->
+    <div id="mynav" class="navbar-collapse collapse">
+      <ul class="navbar-nav">
+      <li class="dropdown-item"><a class="navbar-brand" href="index.html" class="nav-link"><span class="glyphicon glyphicon-plane"> <b>[主頁]</b></a></li>
+        <li class="dropdown-item"><a class="navbar-brand" href="經典戰鬥番.html" class="nav-link"><span class="glyphicon glyphicon-user"> <b>[經典戰鬥番]</b></a></li>
+        <li class="dropdown-item"><a class="navbar-brand" href="校園戀愛番.html" class="nav-link"><span class="glyphicon glyphicon-envelope"> <b>[校園戀愛番]</b></a></li>
+        <li class="dropdown-item"><a class="navbar-brand" href="搞笑喜劇番.html" class="nav-link"><span class="glyphicon glyphicon-user"> <b>[搞笑喜劇番]</b></a></li>
+        <li class="dropdown-item"><a class="navbar-brand" href="異世界番.html" class="nav-link"><span class="glyphicon glyphicon-envelope"><b> [異世界番]</b></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron text-center" style="background-color:deepskyblue">
+    <h1><b>異世界番</b></h1>
+    <p style="color:red; font-size: 25px;">介紹動畫前，要先了解哪裡可以看動漫</p>
+</div>
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+<!-- 相片輪播元件 -->
+<div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
+  <!-- Indicators 瀏覽控制 --> 
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <!-- 建立相片清單 -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="https://ani.gamer.com.tw/"><img src="image/anime1.png" class="d-block w-50" style="display:block; margin:auto;" ></a>
+    </div>
+    <div class="carousel-item">
+    <a href="https://www.youtube.com/channel/UCgdwtyqBunlRb-i-7PnCssQ"> <img src="image/anime2.png" class="d-block w-50" style="display:block; margin:auto;" ></a>
+    </div>
+    <div class="carousel-item">
+    <a href="https://anime1.me/"> <img src="image/anime3.png" class="d-block w-50" style="display:block; margin:auto;"></a>
+    </div>
+  </div>
+  <!-- 上一張/下一張控制 --> 
+  <a class="left carousel-control" href="#photoCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#photoCarousel" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span></a>
+  <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<p class="text_1">何為異世界番?</p>
+<div class="div_1">
+  <img src="image/異世界四重.png" align="right" hspace="50" vspace="20" width="400" height="500" ><br>
+  <p style="text-align:left; font-size:50px;color: mediumseagreen;">顧名思義，在不同的時空背景和世界觀所組成之故事內容的動畫，最常見的套路類型是主角是現代人，因為一個不小心而轉生或穿越到了異世界，這類型的動畫通常是以冒險為主軸進行延伸，近期的動畫常常會看到異世界番，算是熱門的動畫題材。</p>
+<br><br><br><br><br>
+</div>  
+  
+  <div class="div_1">
+  <p class="text">Re:從零開始的異世界生活</p>
+<br><img src="image/re0.jpg" align="right" hspace=30" vspace="50" width="350" height="400" ><br>
+<p class="text_2">《Re:從零開始的異世界生活》（日語：Re:ゼロから始める異世界生活，羅馬字：Ri:Zero kara Hajimeru Isekai Seikatsu），簡稱《Re:Zero》（日語：リゼロ），是由長月達平撰寫，後來改編成同名動畫。一名普通的普通高中生人類，《Re:Zero》的男主角菜月昴，在便利店回家的途中突然發現被傳送到異世界。在不熟悉的世界、沒有特殊能力而被惡霸欺淩的時候，被一位銀髮少女跟她的貓精靈帕克救下。為了報恩銀髮少女，男主角昴答應幫銀髮少女尋找失物，想不到在途中遇襲死亡。死亡後的昴甦醒過來後，發現自己回到最初到達異世界時最初的時間點上，他慢慢地發現自己擁有死後重來的「死亡回歸」能力。經過多次死亡來累積經驗，終於成功擊退敵人和奪回失物，並知道銀髮少女的真正名字，後來的他遭遇很多人死亡的悲劇，他為了拯救重要之人還是一次又一次的使用「死亡回歸」的能力。</p>
+<br><br><br><br><br>
+</div>
+
+<div class="div_1">
+  <p class="text">關於我轉生變成史萊姆這檔事</p>
+  <br><img src="image/轉生史萊姆.jpg" align="right" hspace="30" vspace="20" width="350" height="400" ><br>
+
+  <p class="text_2">《關於我轉生變成史萊姆這檔事》（日語：転生したらスライムだった件）通常簡稱為《轉生史萊姆》（日語：転スラ）是日本小說家伏瀨創作的一部網路小說作品。2018年10月至2019年3月起播放同名電視動畫第一季，劇情講述一個普通的37歲上班族三上悟被隨機殺人魔殺死，而轉生到異世界，成為史萊姆。他將會在這個伴隨著劍與魔法的新人生（史萊姆生命歷程）中，掀起席捲整個異世界的巨大風暴。</p>
+  <br><br><br><br><br>   
+  </div>
+
+</body>
+</html>

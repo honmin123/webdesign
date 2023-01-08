@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>動畫推薦</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+
+    </script>
+     <script src="https://code.jquery.com/jquery.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+  .text{text-align: left;
+    font-size:  70px;
+    color: blueviolet;}
+  .text_1{text-align: center;
+    font-size:  70px;
+    color: blueviolet;}
+    .text_2{text-align:left;
+    font-size:30px;
+    color: mediumseagreen;}
+    #div_1 {
+        margin: 0px 15px 15px 15px; 
+        width: 500px; /* 配合廣告尺寸 */
+        clear: both;
+        }
+</style>
+
+<body>
+<!-- 巡覽列, navbar-default 表示白底黑字樣式 -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+    <!-- 選單表頭區塊 -->
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand" style="font-size: 30px;"><b>動畫介紹一覽</b></a>
+      <!-- 按鈕 -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+ 
+      </button>
+    </div>
+    
+    <!-- 選單 -->
+    <div id="mynav" class="navbar-collapse collapse">
+        
+        <ul class="navbar-nav">
+          <li class="dropdown-item"><a class="navbar-brand" href="index.html" class="nav-link"><span class="glyphicon glyphicon-plane"> <b>[主頁]</b></a></li>
+            <li class="dropdown-item"><a class="navbar-brand" href="經典戰鬥番.html" class="nav-link"><span class="glyphicon glyphicon-user"> <b>[經典戰鬥番]</b></a></li>
+            <li class="dropdown-item"><a class="navbar-brand" href="校園戀愛番.html" class="nav-link"><span class="glyphicon glyphicon-envelope"> <b>[校園戀愛番]</b></a></li>
+            <li class="dropdown-item"><a class="navbar-brand" href="搞笑喜劇番.html" class="nav-link"><span class="glyphicon glyphicon-user"> <b>[搞笑喜劇番]</b></a></li>
+            <li class="dropdown-item"><a class="navbar-brand" href="異世界番.html" class="nav-link"><span class="glyphicon glyphicon-envelope"><b> [異世界番]</b></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron text-center" style="background-color:deepskyblue">
+    <h1><b>經典戰鬥番</b></h1>
+    <p style="color:red; font-size: 25px;">介紹動畫前，要先了解哪裡可以看動漫</p>
+</div>
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+<!-- 相片輪播元件 -->
+<div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
+  <!-- Indicators 瀏覽控制 --> 
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <!-- 建立相片清單 -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="https://ani.gamer.com.tw/"><img src="image/anime1.png" class="d-block w-50" style="display:block; margin:auto;" ></a>
+    </div>
+    <div class="carousel-item">
+    <a href="https://www.youtube.com/channel/UCgdwtyqBunlRb-i-7PnCssQ"> <img src="image/anime2.png" class="d-block w-50" style="display:block; margin:auto;" ></a>
+    </div>
+    <div class="carousel-item">
+    <a href="https://anime1.me/"> <img src="image/anime3.png" class="d-block w-50" style="display:block; margin:auto;"></a>
+    </div>
+  </div>
+  <!-- 上一張/下一張控制 --> 
+  <a class="left carousel-control" href="#photoCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#photoCarousel" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span></a>
+  <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<p class="text_1">何為經典戰鬥番?</p>
+<div class="div_1">
+  <img src="image/星爆.jpg" align="right" hspace="90" vspace="20" width="360" height="360" ><br>
+  <p style="text-align:left; font-size:50px;color: mediumseagreen;">顧名思義，就是主打以戰鬥為賣點的動畫，一個好的經典戰鬥番，絕對少不了的就是流暢的戰鬥分鏡，除了有良好的畫質以外，劇情方面能否讓觀眾留下一個深刻的印象，我認為這才是經典戰鬥番不可缺少的要素。</p>
+<br><br><br><br><br>
+</div>  
+  
+  <div class="div_1">
+  <p class="text">鋼之煉金術師</p>
+<br><img src="image/鋼鍊.jpg" align="right" hspace="10" vspace="70" width="360" height="380" ><br>
+<p class="text_2">《鋼之鍊金術師》（鋼の錬金術師，FULLMETAL ALCHEMIST，簡稱「鋼鍊（ハガレン）」）是日本漫畫家荒川弘的作品，先後於2003年及2009年由BONES動畫公司製作成動畫。背景設定在鍊金術相當發達的世界。愛德華·愛力克和他的弟弟阿爾馮斯十分思念亡故的母親，為了再次見到母親的微笑，而進行鍊金術中最大的禁忌「人體鍊成」──亦即讓死者復活的鍊成術──可是鍊成失敗時的反彈效應，愛德華付出「代價」左腳、阿爾則失去全身。為救回弟弟，愛德犧牲自己的右臂作為代價，將弟弟的靈魂固定在一副鎧甲上；而失去的右臂和左腿則由鋼製義肢「機械鎧」來替代，因此在取得國家鍊金術師資格時、大總統給予「鋼」的稱號，人們稱之為「鋼之鍊金術師」。大陸曆（相當於公曆）1911年，愛力克兄弟為取回他們所失去的一切，開始踏上了旅程。</p>
+<br><br><br>
+</div>
+
+<div class="div_1">
+  <p class="text">刀劍神域</p>
+  
+  <br><img src="image/刀劍.jpg" align="right" hspace="10" vspace="70" width="360" height="380" ><br>
+
+  <p class="text_2">《刀劍神域》（日語：ソードアート・オンライン，英語：Sword Art Online），官方簡稱「SAO」，是作者川原礫所撰寫的故事。桐人（桐谷和人）是使用NerveGear遊玩VRMMORPG「Sword Art Online」的玩家之一，很幸運的參與過封閉測試Beta Test和成功買下了正式版。在正式營運當天（2022年11月6日），包括桐人在內的約一萬名玩家就馬上「完全潛行Full Dive」進入正式版的SAO，享受著虛擬世界的樂趣。
+    然而，四小時多後部分玩家們發現登出的指令消失了，認為只是系統暫時出錯的桐人以及開始陷入混亂的所有玩家都被傳送到起始城鎮的大廣場，但空中傳來的不是衆人等待許久的故障公告，而是自稱是SAO遊戲設計者「茅場晶彥」的人淡淡開始的死亡遊戲說明：不能登出是遊戲的正常現象，只有打倒位於「艾恩葛朗特頂樓第100層的最終頭目」——達成完全攻略——才是離開這個世界唯一的方法。並且，在遊戲內死去或是在強行現實世界中脫下NerveGear，玩家在現實世界中的腦部會被NerveGear所發出的高頻率微波破壞而死亡。</p>
+    
+  </div>
+  <img src="image/這可不是鬧著玩的.png" align="right" hspace="10" vspace="70" width="300" height="100" style="position: relative; bottom: 180px; right: 20px;" >
+  </body>
+</html>
